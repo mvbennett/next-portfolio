@@ -7,22 +7,22 @@ import Footer from "./Footer";
 
 const App = () => {
   const stack = {
-    ruby: { Ruby: "../assets/images/icons/ruby-plain-wordmark.svg" },
-    rails: { 'Ruby on Rails': "../assets/images/icons/rails-plain-wordmark.svg" },
-    javascript: { JavaScript: "../assets/images/icons/javascript-original.svg" },
-    react: { React: "../assets/images/icons/react-original-wordmark.svg" },
-    express: { 'Express.js': "../assets/images/icons/expressjs-icon.svg" },
-    postgres: { PostgreSQL: "../assets/images/icons/postgresql-original-wordmark.svg" },
-    redux: { Redux: "../assets/images/icons/redux.svg" },
-    sass: { Sass: "../assets/images/icons/sass-original.svg" },
-    bootstrap: { Bootstrap: "../assets/images/icons/bootstrap-original-wordmark.svg" },
-    figma: { Figma: "../assets/images/icons/figma-original.svg" },
-    html: { HTML5: "../assets/images/icons/html5-original-wordmark.svg" },
-    mongo: { MongoDB: "../assets/images/icons/mongodb-icon.svg" },
-    node: { 'Node.js': "../assets/images/icons/nodejs-original.svg" },
-    npm: { NPM: "../assets/images/icons/npm-original-wordmark.svg" },
-    yarn: { Yarn: "../assets/images/icons/yarn-original-wordmark.svg" },
-    webpack: { Webpack: "../assets/images/icons/webpack-icon.svg" }
+    ruby: { Ruby: "../public/images/icons/ruby-plain-wordmark.svg" },
+    rails: { 'Ruby on Rails': "../public/images/icons/rails-plain-wordmark.svg" },
+    javascript: { JavaScript: "../public/images/icons/javascript-original.svg" },
+    react: { React: "../public/images/icons/react-original-wordmark.svg" },
+    express: { 'Express.js': "../public/images/icons/expressjs-icon.svg" },
+    postgres: { PostgreSQL: "../public/images/icons/postgresql-original-wordmark.svg" },
+    redux: { Redux: "../public/images/icons/redux.svg" },
+    sass: { Sass: "../public/images/icons/sass-original.svg" },
+    bootstrap: { Bootstrap: "../public/images/icons/bootstrap-original-wordmark.svg" },
+    figma: { Figma: "../public/images/icons/figma-original.svg" },
+    html: { HTML5: "../public/images/icons/html5-original-wordmark.svg" },
+    mongo: { MongoDB: "../public/images/icons/mongodb-icon.svg" },
+    node: { 'Node.js': "../public/images/icons/nodejs-original.svg" },
+    npm: { NPM: "../public/images/icons/npm-original-wordmark.svg" },
+    yarn: { Yarn: "../public/images/icons/yarn-original-wordmark.svg" },
+    webpack: { Webpack: "../public/images/icons/webpack-icon.svg" }
   };
   return (
     <div id="app">
