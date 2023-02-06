@@ -1,10 +1,13 @@
 import React from "react";
+import Image from "next/image";
+
+import profilePicture from '../public/images/purple.jpg';
 
 const BioCard = () => {
   return (
     <div className="bio-block">
       <div className="bio-photo" data-aos="fade-right">
-        <img src="/images/purple.jpg" alt="" />
+        <Image src={profilePicture} alt="Mike Bennett" />
       </div>
       <div className="bio-info" data-aos="fade-left">
         <h3>

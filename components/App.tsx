@@ -29,10 +29,10 @@ const App = () => {
       <Title />
       <div className="container">
         <BioCard />
-        <Projects stack={stack} />
-        <SkillsBox stack={stack} />
+        {/* <Projects stack={stack} /> */}
+        {/* <SkillsBox stack={stack} /> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
 
   );
