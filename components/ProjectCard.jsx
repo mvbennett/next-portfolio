@@ -25,7 +25,7 @@ const ProjectCard = ({ project }) => {
           {projectStack}
         </div>
         <a href={project.github} rel="noreferrer" target="_blank">
-          <img src="../assets/../assets/images/icons/GitHub-Mark-32px.png" alt="GitHub code link" className="github-logo" />
+          <img src="/images/icons/GitHub-Mark-32px.png" alt="GitHub code link" className="github-logo" />
         </a>
       </div>
     </div>

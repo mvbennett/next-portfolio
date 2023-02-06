@@ -6,7 +6,7 @@ const Projects = ({ stack }) => {
   const projects = {
     abandonya: {
       name: 'Abandonya',
-      img: '../../assets/images/Abandonya.png',
+      img: '/images/Abandonya.png',
       url: 'https://abandonya.herokuapp.com/',
       description: 'An app that allows you to rent various locations with a spooky twist',
       role: 'Lead Developer',
@@ -24,7 +24,7 @@ const Projects = ({ stack }) => {
     },
     myGameShelf: {
       name: 'My Game Shelf',
-      img: '../../assets/images/MyGameShelf.png',
+      img: '/images/MyGameShelf.png',
       url: 'https://mvbgameshelf.herokuapp.com',
       description: 'Manage all the games that you own and want',
       role: 'Lead Developer and Front End Developer',
@@ -43,7 +43,7 @@ const Projects = ({ stack }) => {
     },
     photofolio: {
       name: 'Photofolio',
-      img: '../../assets/images/photofolio.png',
+      img: '/images/photofolio.png',
       url: 'http://fotofolio.herokuapp.com/',
       description: 'An app completely focused on photos for photographers and fans of photography',
       role: 'Solo Project',
