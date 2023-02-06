@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCard = ({ project }) => {
   const projectStack = project.stack.map((tool) => {
     return (
-      <img src={Object.values(tool)[0]} alt={Object.keys(tool)[0]} className="stack-skill" />
+      <img src={Object.values(tool)[0]} alt={Object.keys(tool)[0]} key={`${Object.keys(tool)[0]}`} className="stack-skill" />
     );
   });
   return (
