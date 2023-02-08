@@ -2,7 +2,7 @@ import React from "react";
 
 import ProjectCard from "./ProjectCard";
 
-const Projects = ({ stack }) => {
+const Projects = ({ stack }:any) => {
   const projects = {
     abandonya: {
       name: 'Abandonya',
