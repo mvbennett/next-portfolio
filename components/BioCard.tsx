@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import Image from "next/image";
 
-import profilePicture from '../public/images/purple.jpg';
+import profilePicture from '@/public/images/purple.jpg';
 
 const BioCard = () => {
   return (

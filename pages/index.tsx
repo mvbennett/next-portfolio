@@ -3,10 +3,33 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import App from '../components/App';
+import Title from '@/components/Title';
+import BioCard from '@/components/BioCard';
+import Projects from '@/components/Projects';
+import SkillsBox from '@/components/SkillsBox';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const stack = {
+    ruby: { Ruby: "/images/icons/ruby-plain-wordmark.svg" },
+    rails: { 'Ruby on Rails': "/images/icons/rails-plain-wordmark.svg" },
+    javascript: { JavaScript: "/images/icons/javascript-original.svg" },
+    react: { React: "/images/icons/react-original-wordmark.svg" },
+    express: { 'Express.js': "/images/icons/expressjs-icon.svg" },
+    postgres: { PostgreSQL: "/images/icons/postgresql-original-wordmark.svg" },
+    redux: { Redux: "/images/icons/redux.svg" },
+    sass: { Sass: "/images/icons/sass-original.svg" },
+    bootstrap: { Bootstrap: "/images/icons/bootstrap-original-wordmark.svg" },
+    figma: { Figma: "/images/icons/figma-original.svg" },
+    html: { HTML5: "/images/icons/html5-original-wordmark.svg" },
+    mongo: { MongoDB: "/images/icons/mongodb-icon.svg" },
+    node: { 'Node.js': "/images/icons/nodejs-original.svg" },
+    npm: { NPM: "/images/icons/npm-original-wordmark.svg" },
+    yarn: { Yarn: "/images/icons/yarn-original-wordmark.svg" },
+    webpack: { Webpack: "/images/icons/webpack-icon.svg" }
+  };
   return (
     <>
       <Head>
@@ -119,7 +142,14 @@ export default function Home() {
           </a>
         </div>
       </main> */}
-      <App />
+      {/* <App /> */}
+      <Title />
+      <div className="container">
+        <BioCard />
+        <Projects stack={stack} />
+        <SkillsBox stack={stack} />
+      </div>
+      <Footer />
     </>
   )
 }
