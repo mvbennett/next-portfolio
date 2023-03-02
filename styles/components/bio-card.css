@@ -1,0 +1,66 @@
+.bio-block {
+  padding: 8px;
+  margin: 8px 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.bio-info {
+  padding: 8px;
+  line-height: 30px;
+  padding-left: 24px;
+}
+
+.bio-info p {
+  font-size: 20px;
+}
+
+.bio-photo img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.main-skill {
+  background: linear-gradient(transparent 55%, rgba(255, 0, 10, 0.21) 10%, rgba(255, 0, 10, 0.21) 90%, transparent 120%);
+  font-size: 40px;
+}
+
+.divider {
+  padding: 0 8px;
+}
+
+@media (max-width: 1330px) {
+  .main-skill {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .bio-block {
+    flex-direction: column;
+  }
+
+  .bio-info {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 419px) {
+  .bio-photo img {
+    width: 350px;
+  }
+
+  .main-skill {
+    font-size: 18px;
+  }
+
+  .divider {
+    padding: 0 2px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}

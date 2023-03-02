@@ -1,0 +1,55 @@
+footer {
+  height: 100px;
+  background-color: rgb(20,20,20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 48px;
+}
+
+footer img {
+  filter: invert(99%) sepia(4%) saturate(42%) hue-rotate(267deg) brightness(115%) contrast(95%);
+  width: 40px;
+  margin: 0px 18px;
+  opacity: .7;
+}
+
+footer img:hover {
+  opacity: .4;
+}
+
+.social-logo {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width: 1040px) {
+  .bio-block {
+    flex-direction: column;
+  }
+
+  .bio-info {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 419px) {
+  .bio-photo img {
+    width: 350px;
+  }
+
+  .main-skill {
+    font-size: 18px;
+  }
+
+  .divider {
+    padding: 0 2px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}

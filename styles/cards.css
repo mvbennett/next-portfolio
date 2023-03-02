@@ -1,4 +1,4 @@
-.project-card {
+/* .project-card {
   margin: 40px 0;
   text-align: center;
   min-height: 250px;
@@ -59,9 +59,9 @@
 .role {
   color: rgb(87, 0, 0);
   font-weight: bold;
-}
+} */
 
-.bio-block {
+/* .bio-block {
   padding: 8px;
   margin: 8px 0;
   display: flex;
@@ -91,9 +91,9 @@
 
 .divider {
   padding: 0 8px;
-}
+} */
 
-.skills-box  {
+/* .skills-box  {
   border: 1px solid black;
   border-radius: 5px;
   padding: 8px;
@@ -103,9 +103,9 @@
   row-gap: 24px;
   grid-template-columns: repeat(auto-fill, 72px);
   justify-content: center;
-}
+} */
 
-footer {
+/* footer {
   height: 100px;
   background-color: rgb(20,20,20);
   display: flex;
@@ -124,21 +124,15 @@ footer img {
 
 footer img:hover {
   opacity: .4;
-}
+} */
 
-.skill-container {
+/* .skill-container {
   position: relative;
   height: 64px;
   width: 64px;
-}
+} */
 
-.social-logo {
-  position: relative;
-  height: 40px;
-  width: 40px;
-}
-
-@media (max-width: 1330px) {
+/* @media (max-width: 1330px) {
   .main-skill {
     font-size: 24px;
   }
@@ -196,13 +190,13 @@ footer img:hover {
   h2 {
     font-size: 32px;
   }
-}
+} */
 
-.skill-logo {
+/* .skill-logo {
   height: 100%;
   width: 100%;
-}
+} */
 
-.github-logo:hover {
+/* .github-logo:hover {
   opacity: .7;
-}
+} */

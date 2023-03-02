@@ -1,0 +1,34 @@
+.skills-box  {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px auto 40px;
+  display: grid;
+  column-gap: 6%;
+  row-gap: 24px;
+  grid-template-columns: repeat(auto-fill, 72px);
+  justify-content: center;
+}
+
+.skill-container {
+  position: relative;
+  height: 64px;
+  width: 64px;
+}
+
+.skill-logo {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1040px) {
+  .skills-box {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-box {
+    grid-template-columns: repeat(auto-fill, 70px);
+  }
+}
