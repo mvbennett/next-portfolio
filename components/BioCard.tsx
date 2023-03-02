@@ -18,11 +18,16 @@ const BioCard = () => {
           <span className="main-skill">React</span>
         </h3>
         <p>
-          Full stack web developer and freelance photographer in NYC.
-          Studied web development at Le Wagon in Tokyo and created
-          two Ruby on Rails based apps in a four-person team.
-          Currently looking for Full Stack web development positions in a
-          small or medium sized company.
+          I{'\''}m a developer mainly focused on web apps across the stack using Ruby on Rails, PostgreSQL, JavaScript, React, and Next.js. Currently involved in supporting small-sized, non-technical organizations such as Acme Hall Studios and CBID.
+        </p>
+        <p>
+          I{'\''}ve infused my design work and photography into the web apps I{'\''}ve developed - I am always seeking to add personality to what I create or collaborate on.
+        </p>
+        <p>
+          As my next step I{'\''}m looking to be part of a small team either at a startup or medium-sized business.
+        </p>
+        <p>
+          I{'\''}m also a huge coffee nerd and always down to meet and talk about web development, software engineering, or coffee culture. Feel free to message me!
         </p>
       </div>
     </div>
