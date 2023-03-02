@@ -8,7 +8,7 @@ const ProjectCard = ({ project }: any) => {
   });
   return (
     <div className="project-card">
-      <a data-aos="fade-right" href={project.url} dangerouslySetInnerHTML={{ __html: '' }} rel="noreferrer" alt={project.name} target="_blank" className="project-photo" style={{ background: `linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.3)), url(${project.img})`, backgroundSize: 'cover' }} />
+      <a data-aos="fade-right" href={project.url} dangerouslySetInnerHTML={{ __html: '' }} rel="noreferrer" target="_blank" className="project-photo" style={{ background: `linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.3)), url(${project.img})`, backgroundSize: 'cover' }} />
       <div className="project-info" data-aos="fade-left">
         <h3>
           <a href={project.url} rel="noreferrer" target="_blank">
