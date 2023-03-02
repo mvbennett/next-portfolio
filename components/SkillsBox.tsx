@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 
 const SkillsBox = ({ stack }:any) => {
-  const skills = Object.values(stack).map((tool) => {
+  const skills = Object.values(stack).map((tool: any) => {
     return (
-      <img src={Object.values(tool)[0]} alt={Object.keys(tool)[0]} key={`${Object.keys(tool)[0]}`} className="skill-logo" data-aos="zoom-in" />
+      <img src={tool.img} alt={tool.name} key={tool.name} className="skill-logo" data-aos="zoom-in" />
     );
   });
   return (
