@@ -4,7 +4,9 @@ import React from "react";
 const SkillsBox = ({ stack }:any) => {
   const skills = Object.values(stack).map((tool: any) => {
     return (
-      <img src={tool.img} alt={tool.name} key={tool.name} className="skill-logo" data-aos="zoom-in" />
+      <div className="skill-container" key={tool.name}>
+        <Image src={tool.img} alt={tool.name} className="skill-logo" data-aos="zoom-in" fill />
+      </div>
     );
   });
   return (

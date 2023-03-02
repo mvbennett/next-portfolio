@@ -111,7 +111,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px
+  padding: 50px;
+  gap: 48px;
 }
 
 footer img {
@@ -123,6 +124,18 @@ footer img {
 
 footer img:hover {
   opacity: .4;
+}
+
+.skill-container {
+  position: relative;
+  height: 64px;
+  width: 64px;
+}
+
+.social-logo {
+  position: relative;
+  height: 40px;
+  width: 40px;
 }
 
 @media (max-width: 1330px) {
