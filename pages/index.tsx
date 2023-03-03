@@ -36,6 +36,11 @@ export default function Home() {
       <Head>
         <title>Mike Bennett Full Stack Developer</title>
         <meta name="description" content="Mike Bennett Full Stack Developer's portfolio" />
+        <meta property='og:description' content='The portfolio for Michael Bennett, Software Engineer and Full Stack Developer.'/>
+        <meta property='og:image' content='/images/thumb.png'/>
+        <meta property='og:url' content='https://mvbennett.me'/>
+        <meta property='og:image:width' content='1200' />
+        <meta property='og:image:height' content='627' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
