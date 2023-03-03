@@ -8,7 +8,7 @@ const Projects = ({ stack }:any) => {
       name: 'Abandonya',
       img: '/images/Abandonya.png',
       url: 'https://abandonya.herokuapp.com/',
-      description: 'An app that allows you to rent various locations with a spooky twist',
+      description: 'An app for users to search for unusual places they would like to visit and make reservations for each place. Owners of the spaces can list their spaces on the app, set their own terms, and approve or deny any reservations for those spaces.',
       role: 'Lead Developer',
       github: 'https://github.com/mvbennett/abandonya',
       stack: [
@@ -26,7 +26,7 @@ const Projects = ({ stack }:any) => {
       name: 'My Game Shelf',
       img: '/images/MyGameShelf.png',
       url: 'https://mvbgameshelf.herokuapp.com',
-      description: 'Manage all the games that you own and want',
+      description: 'Users can search for new games and manage their collections across all gaming platforms by putting them on the game shelf. Integrated with Twitch\'s API so users can access current live streams from the app. Offers analytics for users about the games they are interested in and makes helpful recommendations for what they would be interested in.',
       role: 'Lead Developer and Front End Developer',
       github: 'https://github.com/mvbennett/my-game-shelf',
       stack: [
