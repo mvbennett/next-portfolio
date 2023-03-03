@@ -28,7 +28,8 @@ export default function Home() {
     webpack: { name: 'Webpack', img: "/images/icons/webpack-icon.svg" },
     nextjs: { name: 'NextJS', img: '/images/icons/next.svg' },
     typescript: { name: 'TypeScript', img: '/images/icons/typescript.svg' },
-    electron: { name: 'electron', img: '/images/icons/electron.svg' }
+    electron: { name: 'electron', img: '/images/icons/electron.svg' },
+    docker: { name: 'Docker', img: '/images/icons/docker.svg' }
   };
   return (
     <>
