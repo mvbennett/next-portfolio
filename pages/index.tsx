@@ -25,7 +25,9 @@ export default function Home() {
     node: { name: 'Node.js', img: "/images/icons/nodejs-original.svg" },
     npm: { name: 'NPM', img: "/images/icons/npm-original-wordmark.svg" },
     yarn: { name: 'Yarn', img: "/images/icons/yarn-original-wordmark.svg" },
-    webpack: { name: 'Webpack', img: "/images/icons/webpack-icon.svg" }
+    webpack: { name: 'Webpack', img: "/images/icons/webpack-icon.svg" },
+    nextjs: { name: 'NextJS', img: '/images/icons/next.svg' },
+    typescript: { name: 'TypeScript', img: '/images/icons/typescript.svg' },
   };
   return (
     <>
