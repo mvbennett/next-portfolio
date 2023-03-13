@@ -4,6 +4,23 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = ({ stack }:any) => {
   const projects = {
+    richbennettproductions: {
+      name: 'Rich Bennett Productions',
+      img: '/images/richbennettproductions.png',
+      url: 'https://richbennettproductions.com',
+      description: 'Single Page Web App for local music producer to share his extensive portfolio and be contacted for future production work. Note: Please only use the email form if you are a musician interested in being recorded, the form information goes directly to the producer, not me.',
+      role: 'Lead Developer',
+      github: 'https://github.com/mvbennett/richbennett',
+      stack: [
+        stack.nextjs,
+        stack.react,
+        stack.typescript,
+        stack.html,
+        stack.sass,
+        stack.figma,
+        stack.yarn
+      ]
+    },
     abandonya: {
       name: 'Abandonya',
       img: '/images/Abandonya.png',
@@ -41,29 +58,13 @@ const Projects = ({ stack }:any) => {
         stack.postgres
       ]
     },
-    photofolio: {
-      name: 'Photofolio',
-      img: '/images/photofolio.png',
-      url: 'http://fotofolio.herokuapp.com/',
-      description: 'An app completely focused on photos for photographers and fans of photography',
-      role: 'Solo Project',
-      github: 'https://github.com/mvbennett/photofolio',
-      stack: [
-        stack.react,
-        stack.rails,
-        stack.sass,
-        stack.node,
-        stack.postgres,
-        stack.webpack
-      ]
-    }
   };
   return (
     <div>
       <h2>Projects</h2>
-      <ProjectCard project={projects.abandonya} />
+      <ProjectCard project={projects.richbennettproductions} />
       <ProjectCard project={projects.myGameShelf} />
-      <ProjectCard project={projects.photofolio} />
+      <ProjectCard project={projects.abandonya} />
     </div>
   );
 };
